@@ -9,6 +9,7 @@ function Card(props) {
             <div className="card_info">
                 <span clasname="card_category">A netflix series</span> 
                 <h1 className="card_title">{props.titles}</h1>
+                <br/>
                 <a href="google.com" target ="_blank">
                     <button>Watch Now</button>
                 </a>
