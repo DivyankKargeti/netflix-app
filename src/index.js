@@ -3,35 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Card from './Card';
 import * as serviceWorker from './serviceWorker';
-import Data from './Data'
+import Data from './Data';
+
+function nflix(val){
+  return(
+    <Card
+      imgsrc = {val.imglink}
+      titles = {val.title}
+      desc = {val.desc}
+    />
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <Card 
-      imgsrc= {Data[0].imglink}
-      titles = {Data[0].title}
-    />
-    <Card
-      imgsrc={Data[1].imglink}
-      titles = {Data[1].title}
-    />
-    <Card
-      imgsrc={Data[2].imglink}
-      titles = {Data[2].title}
-    />
-    <Card
-      imgsrc={Data[3].imglink}
-      titles = {Data[3].title}
-    />
-    <Card
-      imgsrc={Data[4].imglink}
-      titles = {Data[4].title}
-    />
-    <Card
-      imgsrc={Data[5].imglink}
-      titles = {Data[5].title}
-    />
-    
+    <h1 style = {{color:"#fff",textAlign:"center"}}>Top Netflix Series</h1>
+      {Data.map(nflix)}
   </React.StrictMode>,
   document.getElementById('root')
 );
