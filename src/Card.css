@@ -28,9 +28,10 @@ body{
 }
 
 .card img{
+    padding-top:10px;
     height:200px;
     width:250px;
-    border-radius:25px;
+    border-radius:50%;
 }
 
 .card_info{

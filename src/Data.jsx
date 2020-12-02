@@ -7,7 +7,7 @@ const Data = [
     {
         imglink : "https://wallpapercave.com/wp/wp1839578.jpg",
         title : "Stranger Things",
-        desc : "A Amazon Prime Series"
+        desc : "An Amazon Prime Series"
     },
     {
         imglink : "https://wallpapercave.com/wp/wp5590812.png",
@@ -17,7 +17,7 @@ const Data = [
     {
         imglink : "https://wallpapercave.com/wp/wp2032047.jpg",
         title : "Sherlock",
-        desc : "A Amazon Prime Series"
+        desc : "An Amazon Prime Series"
     },
     {
         imglink : "https://wallpapercave.com/wp/3XEeB1s.jpg",
